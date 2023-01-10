@@ -1,6 +1,5 @@
 use gtk::prelude::*;
 use std::process::Command;
-//use std::io::Write;
 use std::process::Stdio;
 use gtk::{Application, ApplicationWindow, Button};
 
