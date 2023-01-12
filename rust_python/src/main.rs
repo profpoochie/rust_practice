@@ -1,6 +1,5 @@
 use gtk::prelude::*;
 use std::process::Command;
-//use std::io::Write;
 use std::process::Stdio;
 use gtk::{Application, ApplicationWindow, Button};
 
@@ -29,7 +28,7 @@ fn build_ui(app: &Application) {
 
     // Connect to "clicked" signal of `button`
     button.connect_clicked(move |_button| {
-        // command "ls" with arg "-l" on terminal
+        // button let you run a python script that computes circle area.
         let radius = 3.14;
 
         let  child = Command::new("python")
