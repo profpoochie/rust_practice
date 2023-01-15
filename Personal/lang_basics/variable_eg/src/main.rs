@@ -1,8 +1,11 @@
 #[allow(unused_variables)]
 #[allow(unused_assignments)]
 
+const URL: &str = "google.com";
+
 fn main() {
-    /*     let name: &str = "Alex";
+    /*
+    let name: &str = "Alex";
     let mut age: i32 = 32;
     let amount: i64 = 5115112120202;
 
@@ -53,4 +56,6 @@ fn main() {
 
     let new_dog = dog.replace("the", "is my");
     println!("{}", new_dog);
+
+    println!("{}", URL);
 }
