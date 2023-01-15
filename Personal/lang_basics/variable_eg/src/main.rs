@@ -15,4 +15,18 @@ fn main() {
     println!("{}", color);
 
     let (a, b, c) = (43, 85, "red");
+
+    let pi: f32 = 3.1416;
+    println!("{}", pi);
+
+    let million = 1_000_000;
+    println!("{}", million);
+
+    let is_day = true;
+    let is_night = false;
+    println!("{}", is_day);
+
+    let char1 = 'A';
+    let smiley_face = '\u{1f601}';
+    println!("characters {} and {}", char1, smiley_face);
 }
