@@ -1,9 +1,9 @@
 fn main() {
-    let mut s = String::from("hello");
-
-    change(&mut s);
+    let string = no_dangle();
 }
 
-fn change(some_string: &mut String) {
-    some_string.push_str(", world");
+fn no_dangle() -> String {
+    let s = String::from("hello");
+
+    s
 }
