@@ -20,4 +20,7 @@ fn main() {
     let first = &v[0];
     println!("The first element is: {first}.")
 
+    //Iterating over the values of a vector
+
+    
 }
